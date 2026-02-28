@@ -257,6 +257,8 @@ def run_batch_processing(directory_path):
             except Exception as e:
                 print(f"Ошибка в {filename}: {e}")
 
+"""Построение графиков"""
+
 import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
